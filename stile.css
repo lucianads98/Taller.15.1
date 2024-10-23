@@ -1,0 +1,31 @@
+.highlight {
+    color: black;
+    font-weight: bold;
+}
+
+.menu-icon {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .navbar-collapse.visible {
+        display: block;
+        background-color: #6c757d;
+    }
+}
+ 
